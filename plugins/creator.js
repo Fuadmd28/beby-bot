@@ -5,7 +5,7 @@ let handler = async(m, { conn }) => {
 	const ftroli = {
     key : {
     remoteJid: 'status@broadcast',
-    participant : '0@s.whatsapp.net'
+    participant : '628989513496@s.whatsapp.net'
     },
     message: {
     orderMessage: {
@@ -15,7 +15,7 @@ let handler = async(m, { conn }) => {
     message: `Nih My Mastah :3`, 
     orderTitle: ``,
     thumbnail: await (await fetch('https://telegra.ph/file/7501d485189f34dc429a7.jpg')).buffer(), //Gambarnye
-    sellerJid: '0@s.whatsapp.net' 
+    sellerJid: '628989513496@s.whatsapp.net' 
     }
     }
     }
@@ -32,7 +32,7 @@ let handler = async(m, { conn }) => {
     contextInfo: { //forwardingScore: 99999, isForwarded: true,
         externalAdReply: { //showAdAttribution: true,
         	sourceUrl: 'https://instagram.com/inizenscuy/',
-            title: 'Jangan Bully Claraa Dia Kang Kopas <3',
+            title: 'Jangan Bully Bang Fuad Dia Kang Kopas <3',
             body: 'Follow IG Saya Bang Biar Keren •~•',
           thumbnail: await (await fetch(pp)).buffer()
         }
